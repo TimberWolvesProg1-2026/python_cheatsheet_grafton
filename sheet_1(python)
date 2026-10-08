@@ -1,1 +1,22 @@
-
+#VARIABLES
+#There are four variable types, each being demonstrated here.
+#String variables:
+stringvar = "Dave"
+#These contain letters or text (They can also be integers if you dont want to use an integer as an integer but rather just a number)
+#Integer variables:
+intvar = 5
+#These contain numbers and can be used for math and counting
+#Float variables:
+floatvar = 5.34
+#Floats can contain decimal places whereas integers can only contain whole numbers
+#Boolean variables:
+boolvar = True
+#These store a "True" or "False" state (make sure to capitalize True and False)
+#INPUTS
+#Inputs allow the user to enter letters or numbers
+#String input:
+userstrinput = input("input a sentence: ")
+#These can be used to print or do other fun things
+#Integer input
+userintinput = int(input("input a number: "))
+#It's crucial to convert these into integers because otherwise the interpreter will treat them as strings, and you can't do math with strings.
