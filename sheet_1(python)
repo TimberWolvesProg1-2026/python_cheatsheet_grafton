@@ -20,3 +20,6 @@ userstrinput = input("input a sentence: ")
 #Integer input
 userintinput = int(input("input a number: "))
 #It's crucial to convert these into integers because otherwise the interpreter will treat them as strings, and you can't do math with strings.
+#Float input
+userfloatinput = float(input("input a float: "))
+#Again, converting it to a float is necessary because otherwise it is treated as a string.
